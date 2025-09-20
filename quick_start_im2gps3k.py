@@ -21,10 +21,10 @@ data_sample = {'IMG_ID': '103433117_266c57c2e6_29_73293249@N00.jpg', 'LAT': np.f
 # Configuration - Adjust these paths as needed for your environment
 CONFIG = {
     'model': 'Qwen/Qwen2-VL-7B-Instruct',  # Base model name
-    'model_path': '/nobackup2/jiapengyue/code/Geo-R1/checkpoints/test',  # Path to trained LoRA checkpoint; set to None if using base model
-    'image_path': '/nobackup2/jiapengyue/code/Geo-R1/dataset/im2gps3k/im2gps3ktest/',  # Path to main images directory
-    'image_data_path': '/nobackup2/jiapengyue/code/Geo-R1/dataset/mp16-pro/mp-16-images.tar',  # Path to tar file with candidate images
-    'tar_index_path': '/nobackup2/jiapengyue/code/Geo-R1/dataset/mp16-pro/tar_index.pkl',  # Path to tar index pickle
+    'model_path': 'rootpath/checkpoints/test',  # Path to trained LoRA checkpoint; set to None if using base model
+    'image_path': 'rootpath/dataset/im2gps3k/im2gps3ktest/',  # Path to main images directory
+    'image_data_path': 'rootpath/dataset/mp16-pro/mp-16-images.tar',  # Path to tar file with candidate images
+    'tar_index_path': 'rootpath/dataset/mp16-pro/tar_index.pkl',  # Path to tar index pickle
     'topn': 10,  # Number of regular candidates
 }
 
