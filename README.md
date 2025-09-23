@@ -23,7 +23,7 @@ conda install mpi4py
 
 ### Run with your images (calculating rewards between a query and some candidates)
 
-please first the image paths, candidate_gps_lis, gt_lat, and gt_lon in `quick_start.py` file, then run `python quick_start.py` to check the rewards and prediction.
+please first modify the image paths, candidate_gps_lis, gt_lat, and gt_lon in `quick_start.py` file, then run `python quick_start.py` to check the rewards and prediction.
 
 ### Run with sampled im2gps3k data
 
