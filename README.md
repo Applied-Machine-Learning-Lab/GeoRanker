@@ -112,5 +112,6 @@ For MP16-Pro dataset, please refer to [G3](https://arxiv.org/pdf/2405.14702).
 4. Evaluation
 
    ```bash
-   python evaluate.py --model_path=path_to_lora --dataset=im2gps3k --topn=12 --topn_zs=3 --batch_size=4
+   # we recommend using larger batch size during inference
+   python evaluate.py --model_path=path_to_lora --dataset=im2gps3k --topn=12 --topn_zs=3 --batch_size=16
    ```
