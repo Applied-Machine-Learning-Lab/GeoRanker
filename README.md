@@ -115,3 +115,16 @@ For MP16-Pro dataset, please refer to [G3](https://arxiv.org/pdf/2405.14702).
    # we recommend using larger batch size during inference
    python evaluate.py --model_path=path_to_lora --dataset=im2gps3k --topn=12 --topn_zs=3 --batch_size=16
    ```
+
+## Citation
+
+If you find our work interesting or helpful, we would really appreciate it if you could give us a star.
+
+```
+@article{jia2025georanker,
+  title={GeoRanker: Distance-Aware Ranking for Worldwide Image Geolocalization},
+  author={Jia, Pengyue and Park, Seongheon and Gao, Song and Zhao, Xiangyu and Li, Yixuan},
+  journal={arXiv preprint arXiv:2505.13731},
+  year={2025}
+}
+```
