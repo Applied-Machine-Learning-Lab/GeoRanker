@@ -19,6 +19,13 @@ conda install mpi4py
 
 **❗❗❗We also uploaded the YAML file for our environment, but the Transformers version used during our experiments was `4.52.0.dev0`. You may want to set it to a newer official version when running this repository.**
 
+Our environment is also available at [HuggingFace](https://huggingface.co/datasets/Jia-py/GeoRanker/tree/main), you can add it to your conda by:
+
+```bash
+mkdir -p ~/conda_path/envs/your_env_name
+tar -xzf georanker.tar.gz -C ~/conda_path/envs/your_env_name
+```
+
 ## Quick Start
 
 ### Run with your images (calculating rewards between a query and some candidates)
