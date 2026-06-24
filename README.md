@@ -28,6 +28,8 @@ tar -xzf georanker.tar.gz -C ~/conda_path/envs/your_env_name
 
 ## Quick Start
 
+> Note that a higher score predicted by GeoRanker indicates a smaller distance and greater similarity between the query and the candidate.
+
 ### Run with your images (calculating rewards between a query and some candidates)
 
 please first modify the image paths, candidate_gps_lis, gt_lat, and gt_lon in `quick_start.py` file, then run `python quick_start.py` to check the rewards and prediction.
